@@ -1,0 +1,44 @@
+@use "color" as *;
+
+
+
+.sns-link {
+    display: flex;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    
+    &__icon {
+        background-color: $blue;
+        color: $white;
+        font-size: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &--primary {
+            background-color: $blue;
+            // color: $white;
+            height: 48px;
+            width: 48px;
+        }
+    }
+
+
+
+    .title {
+        
+    }
+
+
+
+
+
+}

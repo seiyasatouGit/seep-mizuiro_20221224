@@ -1,0 +1,56 @@
+
+
+// １ページのbackgroundcolor
+.page-bgc{
+    background: linear-gradient(-45deg,#5ea6e0,#49e3eb);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    // 親要素
+    position: relative;
+    
+
+    // &-body{
+    //     height: 100vh;
+    //     width: 100%;
+
+    // }
+
+ }
+
+
+
+
+
+ // ２ページのbackgroundcolor
+// .bgc-bgc__page2{
+//     background: linear-gradient(-45deg,#5ea6e0,#49e3eb);
+    // height: 100vh;
+    // width: 100%;
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    // flex-direction: column;
+
+
+    // 親要素
+    // position: relative;
+    
+
+    // &-body{
+    //     height: 100vh;
+    //     width: 100%;
+
+    // }
+
+//  }
+
+

@@ -1,0 +1,96 @@
+@use "color" as*;
+
+
+
+
+
+// color: #4D606F;
+// letter-spacing: 1px;
+// text-align: center;
+// padding: 0;
+// border: 0;
+// font: inherit;
+// vertical-align: baseline;
+// width: 460px;
+// margin: 0 auto;
+
+
+
+
+
+
+/*タブ切り替え全体のスタイル*/
+.tabs {
+	margin: 0 auto;
+}
+
+/*タブのスタイル*/
+.tab_item {
+  width: calc(100%/2);
+  height: 50px;
+  border-bottom: 2px solid #2d97b8;
+  line-height: 50px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  float: left;
+  text-align: center;
+  transition: all 0.2s ease;
+
+border-radius: 80px;
+font-family:$caslon;
+
+}
+.tab_item:hover {
+  opacity: 0.75;
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+  display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+  display: none;
+  padding: 20px 40px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+
+/*選択されているタブのコンテンツのみを表示*/
+#work:checked ~ #work_content,
+#other:checked ~ #other_content {
+  display: block;
+
+
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+	color: #54BCF6;
+	border-bottom: 2px solid #54BCF6;
+}
+
+
+.form-content1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-wrap{
+  width: 45%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+
+.form-input{
+  width: 100%;
+}
+
+.contact_title--primary{
+  font-size: 14px;
+}

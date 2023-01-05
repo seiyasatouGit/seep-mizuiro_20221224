@@ -1,0 +1,102 @@
+@charset "UTF-8";
+ 
+@use "reset";
+@use "bgc";
+@use "mixin";
+@use "modules";
+@use "font";
+@use "menu";
+
+
+// Portfolioページ（２ページ）
+@use "frame";
+
+// Contactページ（3ページ）
+@use "form";
+
+
+// animation(1~3ページ)
+@use "animation";
+
+
+// ひつじ
+@use "sheep";
+
+
+
+// 画像に関してのSCSSと囲むコンポーネント
+@use "photoandcontent";
+
+
+// 全てのマージンをゼロに。
+* {
+    margin: 0;
+}
+
+.div-log{
+
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto 0;
+}
+// page1
+
+// page2
+
+.page-title {
+    text-align: center;
+}
+
+.page-content{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.main-chara {
+    position: absolute;
+    top:0px;
+    right:0px;
+    width: 10%;
+
+    img{
+        width: 100%;
+    }
+}    
+
+
+
+.portfolio {
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 8px;
+    row-gap: 16px;
+    
+
+    &-item {
+        width: calc(33.3% - 8px);
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+    
+        &__title {
+            font-size: 18px;
+        }    
+
+        &__img{
+            width: 100%;
+            aspect-ratio: 3/2;
+        }
+    }
+
+
+}
+
+// page3

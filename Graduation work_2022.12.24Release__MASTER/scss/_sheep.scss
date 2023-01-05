@@ -1,0 +1,206 @@
+
+
+
+
+// かお
+.uneCircle {
+    border: 8px solid #f0c826;
+    animation: uneune 5s linear infinite; /* 5秒アニメーションをループ */
+    width: 280px;
+    height: 280px;
+    margin: 50px auto;
+  }
+  
+  @keyframes uneune {
+  
+    0% {
+      border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+    }
+  
+    25% {
+      border-radius: 70% 60% 60% 90% / 70% 80% 40% 90%; 
+    }
+  
+    50% {
+      border-radius: 60% 40% 70% 60% / 40% 60% 50% 60%; 
+    }
+  
+    75% {
+      border-radius: 90% 60% 40% 70% / 70% 50% 80% 40%; 
+    }
+  
+    100% {
+      border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+    }
+  }
+
+
+
+
+
+
+
+// 左みみ
+  .uneCircle-lightear {
+    border: 8px solid #f0c826;
+    animation: uneune 5s linear infinite; /* 5秒アニメーションをループ */
+    width: 180px;
+    height: 180px;
+    // margin: 50px auto;
+  }
+  
+  @keyframes uneune {
+  
+    0% {
+      border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+    }
+  
+    25% {
+      border-radius: 70% 60% 60% 90% / 70% 80% 40% 90%; 
+    }
+  
+    50% {
+      border-radius: 60% 40% 70% 60% / 40% 60% 50% 60%; 
+    }
+  
+    75% {
+      border-radius: 90% 60% 40% 70% / 70% 50% 80% 40%; 
+    }
+  
+    100% {
+      border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+  // 右みみ
+//   .uneCircle-rightear {
+//     border: 5px solid #87CCA1;
+//     animation: uneune 5s linear infinite; /* 5秒アニメーションをループ */
+//     width: 78px;
+//     height: 80px;
+//     margin: 170px 233px;
+//   }
+  
+//   @keyframes uneune {
+  
+//     0% {
+//       border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+//     }
+  
+//     25% {
+//       border-radius: 70% 60% 60% 90% / 70% 80% 40% 90%; 
+//     }
+  
+//     50% {
+//       border-radius: 60% 40% 70% 60% / 40% 60% 50% 60%; 
+//     }
+  
+//     75% {
+//       border-radius: 90% 60% 40% 70% / 70% 50% 80% 40%; 
+//     }
+  
+//     100% {
+//       border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+//     }
+
+
+
+
+//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // 左め
+//   .uneCircle-righteye {
+//     border: 5px solid #87CCA1;
+//     animation: uneune 5s linear infinite; /* 5秒アニメーションをループ */
+//     width: 20px;
+//     height: 20px;
+//     margin: 170px 233px;
+//   }
+  
+//   @keyframes uneune {
+  
+//     0% {
+//       border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+//     }
+  
+//     25% {
+//       border-radius: 70% 60% 60% 90% / 70% 80% 40% 90%; 
+//     }
+  
+//     50% {
+//       border-radius: 60% 40% 70% 60% / 40% 60% 50% 60%; 
+//     }
+  
+//     75% {
+//       border-radius: 90% 60% 40% 70% / 70% 50% 80% 40%; 
+//     }
+  
+//     100% {
+//       border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+//     }
+
+
+
+
+//   }
+
+
+
+  // 右め
+//   .uneCircle-righteye {
+//     border: 5px solid #87CCA1;
+//     animation: uneune 5s linear infinite; /* 5秒アニメーションをループ */
+//     width: 20px;
+//     height: 20px;
+//     margin: 170px 233px;
+//   }
+  
+//   @keyframes uneune {
+  
+//     0% {
+//       border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+//     }
+  
+//     25% {
+//       border-radius: 70% 60% 60% 90% / 70% 80% 40% 90%; 
+//     }
+  
+//     50% {
+//       border-radius: 60% 40% 70% 60% / 40% 60% 50% 60%; 
+//     }
+  
+//     75% {
+//       border-radius: 90% 60% 40% 70% / 70% 50% 80% 40%; 
+//     }
+  
+//     100% {
+//       border-radius: 60% 50% 70% 80% / 50% 60% 50% 70%; 
+//     }
+
+
+
+
+//   }
